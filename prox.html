@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Kyosko</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Kyosko</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="discos.html">DISCOS</a></li>
+                <li><a class="active" href="prox.html">PROX</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="padding: 10px;">
+        Nueva Presentacion De Album
+    </h2>
+    <hr>
+
+    <img style="margin: 60px;" width="1200px" height="500px" src="assets/img/prenewalbum.jpg" alt="newalbum">
+
+    <h2 style="padding: 10px;">Teatro Vorterix</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.896417666504!2d-58.457702656599686!3d-34.5801770062528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5e77287c945%3A0xbaff5332b9e61c29!2sVorterix!5e0!3m2!1ses!2sar!4v1716561266569!5m2!1ses!2sar"
+        style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <h3 style="padding: 10px;">Entradas ya disponibles en Nuestra pagina web!</h3> <a style="padding: 10px;"
+        href="https://www.allaccess.com.ar/event/kyosko-presenta-real">Teatro Vorterix</a>
+
+    <section class="centrado">
+
+        <div class="gallery">
+            <a href="assets/img/kyoskobanda2.jpg" target="_blank"> <img src="assets/img/kyoskobanda2.jpg"
+                    alt="kyoskobanda2"></a>
+            <div class="desc">Kyosko 1</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/kyoskobanda3.jpg" target="_blank"> <img src="assets/img/kyoskobanda3.jpg"
+                    alt="kyoskobanda3"></a>
+            <div class="desc">Kyosko 2</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/kyoskobanda4.jpg" target="_blank"> <img src="assets/img/kyoskobanda4.jpg"
+                    alt="kyoskobanda4"></a>
+            <div class="desc">Kyosko 3</div>
+        </div>
+
+    </section>
+
+
+    <footer class="footer" style="text-align: center; background-color: #111; color: #CCC;">
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
